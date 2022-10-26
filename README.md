@@ -9,7 +9,7 @@
 
 ### Detalhes técnicos:
 
-- O backend deverá ser desenvolvido na linguagem PHP utilizando o MySql como banco de dados.
+- O backend deverá ser desenvolvido na linguagem PHP utilizando o MySQL como banco de dados.
 - O frontend deverá ser feito utilizando HTML, CSS e JavaScript, podendo também ser utilizado o bootstrap.
 
 ### Entrega:
@@ -19,7 +19,6 @@ Para iniciar o teste, faça um fork deste repositório, crie uma branch com o se
 ### Nossa análise:
 
 - Lógica e organização de código
-- Separação de módulos
 - Legibilidade
 - Boas práticas
 - Comentários
