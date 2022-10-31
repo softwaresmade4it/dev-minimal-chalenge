@@ -1,0 +1,113 @@
+table{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 200px;
+    width: 110em;
+    background-color: white;
+    border: solid 2px black;
+}
+
+td,th{
+    border: 1px solid #000000;
+    padding: 5px 10px;
+}
+
+#cadastrar{
+    background-color: rgb(2, 160, 15);
+    color: rgb(85, 77, 77);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;    
+    border: 1px solid #b2b2b2;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+   
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+    box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+   
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+#editar{
+    text-decoration: none;
+    background-color: rgb(216, 213, 21);
+    color: rgb(85, 77, 77);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;    
+    border: 1px solid #b2b2b2;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+   
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+    box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+   
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;    
+}
+
+#excluir{
+    text-decoration: none;
+    background-color: rgb(235, 41, 41);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;    
+    border: 1px solid #b2b2b2;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+   
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+    box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+   
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;    
+}
+
+#linha,h1{
+    margin-top: 10px;
+    margin-left: 700px;
+}
+
+label{
+    font-size: 18px;
+    color: #000000;
+    padding: 2px 0 10px 0;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+}
+input{
+    display: flex;
+    padding: 10px;    
+    border: 1px solid #b2b2b2;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+   
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+    box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+   
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+/*Tentei aplicar estilização na tag 'a' com o id "voltar", porém não funcionou*/
+#voltar{
+    text-decoration: none;
+    background-color: rgb(235, 41, 41);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;    
+    border: 1px solid #b2b2b2;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+   
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+    box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+   
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;      
+}
