@@ -1,6 +1,6 @@
 Criar o Banco(Schema):
 
-	CREATE SCHEMA `desafio1` ;
+	CREATE SCHEMA `desafio` ;
 
 
 Criar a Tabela cliente:
