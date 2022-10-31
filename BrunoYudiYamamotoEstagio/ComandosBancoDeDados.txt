@@ -1,0 +1,17 @@
+Criar o Banco(Schema):
+
+	CREATE SCHEMA `desafio1` ;
+
+
+Criar a Tabela cliente:
+
+	CREATE TABLE `desafio`.`tcliente` (
+  	`id_cliente` INT NOT NULL AUTO_INCREMENT,
+  	`nome` VARCHAR(45) NOT NULL,
+  	`cpf` VARCHAR(14) NOT NULL,
+ 	`telefone` VARCHAR(12) NOT NULL,
+  	`email` VARCHAR(45) NOT NULL,
+  	PRIMARY KEY (`id_cliente`))
+	ENGINE = InnoDB
+	DEFAULT CHARACTER SET = utf8mb4
+	COLLATE = utf8mb4_0900_ai_ci;
